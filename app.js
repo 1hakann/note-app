@@ -21,4 +21,4 @@ console.log(msg);
 // console.log(validator.isURL("https://hakancakmak.com"));
 
 
-console.log(chalk.bold.inverse.red('Hello World'));
+console.log(chalk.bold.inverse.red('Hello World!'));
