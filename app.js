@@ -21,4 +21,14 @@ console.log(msg);
 // console.log(validator.isURL("https://hakancakmak.com"));
 
 
-console.log(chalk.bold.inverse.red('Hello World!'));
+// console.log(chalk.bold.inverse.red('Hello World!'));
+
+// console.log(process.argv)
+// console.log(process.argv[2]);
+
+const command = process.argv[2];
+if(command === "add") {
+    console.log('Adding notes');
+} else if(command === "remove") {
+    console.log('Removing notes');
+}
